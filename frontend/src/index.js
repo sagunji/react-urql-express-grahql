@@ -4,7 +4,7 @@ import { Todos } from './Todos';
 import { Revenges } from './Revenges';
 import { AddTodo } from './AddTodo';
 import { Provider } from 'urql';
-import createGraphQLClient from './client';
+import createGraphQLClient from './urql/client';
 import { AddRevenge } from './AddRevenge';
 
 function App() {
